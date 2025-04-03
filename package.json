@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "devStart" : "nodemon server/server.js"
+    "devStart": "nodemon server/server.js"
   },
   "keywords": [],
   "author": "",
@@ -11,7 +11,8 @@
   "description": "",
   "dependencies": {
     "bcrypt": "^5.1.1",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
